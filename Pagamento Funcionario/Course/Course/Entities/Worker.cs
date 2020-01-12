@@ -9,7 +9,7 @@ namespace Course.Entities
         public WorkerLevel Level { get; set; }
         public double BasseSalary { get; set; }
         public Department Department { get; set; }
-        public List<HourContract> Contracts { get; set; } = new List<HourContract>;
+        public List<HourContract> Contracts { get; set; } = new List<HourContract>();
         public Worker()
         {
         }
